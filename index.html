@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- css -->
+    <!-- materialize fonts -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- materialize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!-- fonts (font awesome)-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <!-- custom -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>Jim's Portfolio</title>
+  </head>
+  <body id="home" class="scrollspy">
+    <!-- Navbar -->
+    <div class="navbar-fixed">
+      <nav class="teal">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Jim Tatarakis</a>
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+              <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+              <li>
+                <a href="#home">Home</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#projects">Projects</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+              <li>
+                <a href="#resume">Resume</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <ul class="sidenav" id="mobile-nav">
+      <li>
+        <a href="#home">Home</a>
+      </li>
+      <li>
+        <a href="#about">About</a>
+      </li>
+      <li>
+        <a href="#projects">Projects</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+      <li>
+        <a href="#resume">Resume</a>
+      </li>
+    </ul>
+    <!-- Slider -->
+    <!-- TODO: add imgs to slider. -->
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="https://lorempixel.com/580/250/nature/1" />
+          <!--img of jim with kids-->
+          <div class="caption left-align">
+            <h2>I'm a father.</h2>
+            <h5 class="light grey-text text-lighten-3">
+              My greatest responsibility and my largest source of drive.
+            </h5>
+          </div>
+        </li>
+        <li>
+          <img src="https://lorempixel.com/580/250/nature/2" />
+          <!--Full Stack Webdev-->
+          <div class="caption center-align">
+            <h2>A fullstack web developer.</h2>
+            <h5 class="light grey-text text-lighten-3">
+              A MERN based developer, I continue to learn new technologies and
+              skills.
+            </h5>
+          </div>
+        </li>
+        <li>
+          <img src="https://lorempixel.com/580/250/nature/3" />
+          <!--img of bow-->
+          <div class="caption right-align">
+            <h2>An archer.</h2>
+            <h5 class="light grey-text text-lighten-3">
+              I have many passions and hobbies, my favorite is archery.
+            </h5>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <br />
+    <!-- About me -->
+    <div class="container scrollspy" id="about">
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card teal darken-3">
+            <div class="card-content white-text">
+              <span class="card-title">Who I am...</span>
+              <p>
+                A junior web developer. Currently, I am working on expanding my
+                portfolio and developing my skills. My main sources of energy
+                have been my three kids and energy drinks. Learning from my
+                failures each forgotten quotation, every unclosed function I
+                learn more and more about the technical skills and the ever
+                changing profession of being a web developer.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m6">
+          <div class="card teal lighten-2">
+            <div class="card-content white-text">
+              <span class="card-title">Who I am working on becoming...</span>
+              <p>
+                I am working towards becoming a well established full-stack web
+                developer. In the future, I will have a job that not only
+                supports my family, but I will be proud to have. I want to work
+                on projects outside of work as well, showing the community one
+                project at a time what technology can do to help. At heart I
+                love teaching and mentoring, I would like to use that with
+                technology as a method of helping others.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br /><br /><br />
+    <!--TODO: Edit the projects-->
+    <!-- Projects -->
+    <div class="container scrollspy" id="projects">
+      <section class="section teal lighten-5 center">
+        <h3>Projects</h3>
+      </section>
+      <br />
+
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card teal lighten-1">
+            <div class="card-image">
+              <img
+                src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+              class="materialboxed responsive-img"/>
+              <span class="card-title">Project 1</span>
+            </div>
+            <div class="card-content">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Doloremque maxime alias itaque obcaecati minima earum!
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="#">Repository</a>
+              <a href="#">Live Site</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card teal lighten-3">
+            <div class="card-image">
+              <img
+                src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+              class="materialboxed responsive-img"/>
+              <span class="card-title">Project 2</span>
+            </div>
+            <div class="card-content">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Doloremque maxime alias itaque obcaecati minima earum!
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="#">Repository</a>
+              <a href="#">Live Site</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card teal lighten-1">
+            <div class="card-image">
+              <img
+                src="https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+              class="materialboxed responsive-img"/>
+              <span class="card-title">Project 3</span>
+            </div>
+            <div class="card-content">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Doloremque maxime alias itaque obcaecati minima earum!
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="#">Repository</a>
+              <a href="#">Live Site</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card teal lighten-3">
+            <div class="card-image">
+              <img
+                src="https://images.unsplash.com/photo-1521185496955-15097b20c5fe?ixlib=rb-1.2.1&auto=format&fit=crop&w=1247&q=80"
+              class="materialboxed responsive-img"/>
+              <span class="card-title">Project 4</span>
+            </div>
+            <div class="card-content">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Doloremque maxime alias itaque obcaecati minima earum!
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="#">Repository</a>
+              <a href="#">Live Site</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="section teal lighten-5 center" id="projects">
+        <h3>Current Projects</h3>
+      </section>
+      <br />
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card teal lighten-1">
+            <div class="card-image">
+              <img
+                src="https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+              class="materialboxed responsive-img"/>
+              <span class="card-title">Current Project 1</span>
+            </div>
+            <div class="card-content">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Doloremque maxime alias itaque obcaecati minima earum!
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="#">Repository</a>
+              <a href="#">Live Site</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card teal lighten-3">
+            <div class="card-image">
+              <img
+                src="https://images.unsplash.com/photo-1521185496955-15097b20c5fe?ixlib=rb-1.2.1&auto=format&fit=crop&w=1247&q=80"
+              class="materialboxed responsive-img"/>
+              <span class="card-title">Current Project 2</span>
+            </div>
+            <div class="card-content">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Doloremque maxime alias itaque obcaecati minima earum!
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="#">Repository</a>
+              <a href="#">Live Site</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Follow -->
+    <section class="section-follow teal darken-2 white-text center scrollspy" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h4>Follow Me</h4>
+                    <p>Follow me on social media.</p>
+                    <a href="#" class="white-text">
+                        <i class="fab fa-twitter fa-4x"></i>
+                    </a>
+                    <a href="#" class="white-text">
+                        <i class="fab fa-instagram fa-4x"></i>
+                    </a>
+                    <a href="#" class="white-text">
+                        <i class="fab fa-linkedin fa-4x"></i>
+                    </a>
+                    <a href="#" class="white-text">
+                        <i class="fab fa-github fa-4x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="card-panel teal white-text center">
+                        <h5>Contact me if you have any questions</h5>
+                        <i class="material-icons">email</i>
+                        <p>Email: Jimtatarakis@gmail.com</p>
+                        <i class="material-icons">call</i>
+                        <p>Phone: (916)-346-3875</p>
+                    </div>
+                </div>
+                <div class="col s12 m6">
+                    <div class="card-panel grey lighten-4">
+                        <h5>For a quick message</h5>
+                        <div class="input-field">
+                            <input type="text" placeholder="Name">
+                            <input type="text" placeholder="Email">
+                            <input type="text" placeholder="Phone">
+                            <textarea class="materialize-textarea" placeholder="Enter Message"></textarea>
+                        </div>
+                        <input type="submit" value="Submit" class="btn">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="section teal darken-2 white-text center">
+        <p class="flow-text">Jim Tatarakis &copy; 2019</p>
+    </footer>
+
+    <!-- Javascript -->
+    <!-- Materialize Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- Custom -->
+    <script src="assets/javascript/app.js"></script>
+  </body>
+</html>
