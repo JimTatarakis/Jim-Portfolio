@@ -8,7 +8,7 @@ M.Slider.init(slider, {
     indicators: false,
     height: 500,
     transition: 500,
-    interval: 7000
+    interval: 3000,
 })
 
 // Materialboxed
